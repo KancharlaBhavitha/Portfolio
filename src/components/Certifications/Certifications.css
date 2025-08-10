@@ -1,0 +1,20 @@
+.cert-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: orange;
+}
+
+.cert-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cert-img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}

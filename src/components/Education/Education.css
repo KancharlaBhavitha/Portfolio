@@ -1,0 +1,22 @@
+#education {
+    padding: 80px 10%;
+    background-color: #121212;
+    color: white;
+}
+
+#education h2 {
+    font-size: 2rem;
+    color: #f39c12;
+    margin-bottom: 1.5rem;
+}
+
+#education ul {
+    padding-left: 1.5rem;
+    list-style-type: square;
+}
+
+#education li {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+}

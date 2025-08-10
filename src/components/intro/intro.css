@@ -1,0 +1,114 @@
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111;
+    color: #fff;
+    padding: 80px 10%;
+    flex-wrap: wrap;
+}
+
+.intro-left {
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.intro-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello {
+    font-size: 24px;
+    font-weight: 300;
+    color: #ccc;
+}
+
+.introText {
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.introName {
+    font-weight: 700;
+    color: #f39c12;
+}
+
+.introPara {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+.introButtons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #fff;
+    color: #111;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
+
+.outline-btn {
+    background: transparent;
+    color: #fff;
+    border: 2px solid white;
+}
+
+.btnImg {
+    width: 24px;
+    height: 24px;
+}
+
+.profileImage {
+    width: 300px;
+    max-width: 90vw;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #intro {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .intro-left {
+        align-items: center;
+    }
+
+    .introButtons {
+        justify-content: center;
+    }
+
+    .intro-right {
+        margin-bottom: 20px;
+    }
+}

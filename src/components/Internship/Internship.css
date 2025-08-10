@@ -1,0 +1,29 @@
+#internship {
+  padding: 40px 20px;
+  text-align: center;
+  color: orange;
+}
+
+.internship-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.internship-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.internship-img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.internship-description {
+  font-size: 1.1rem;
+  max-width: 600px;
+  line-height: 1.6;
+}
